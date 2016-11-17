@@ -6,7 +6,7 @@ pkgdesc="A Websocket Server with RPC and Publisher/Subscriber-Concept"
 arch=('any')
 url=""
 license=('BSD')
-depends=('boost','websocketpp','jsoncpp')
+depends=('boost' 'websocketpp' 'jsoncpp')
 makedepends=('cmake')
 
 _tag=master
